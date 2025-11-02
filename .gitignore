@@ -15,7 +15,11 @@
 *.asn1.[ch]
 *.bin
 *.bz2
+# this is Rust, not C!
 *.c.[012]*.*
+*.c
+*.cpp
+*.cs
 *.dt.yaml
 *.dtb
 *.dtbo
